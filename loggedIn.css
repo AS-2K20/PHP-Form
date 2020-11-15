@@ -1,0 +1,74 @@
+.submit{
+    margin-top: -19vh;
+    margin-left: 43vw;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0.1px;
+    background-color: salmon;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+body
+{
+    line-height: 1.6em;
+}
+.heading{
+    text-align: center;
+}
+
+table{
+    margin-left: 25%;
+}
+
+.drop-down{
+    margin-top: 3vh;
+    text-align: center;
+    text-align-last:center ;
+}
+
+.delete-div{
+    margin-left: 9vw;
+    margin-top: 9vh;
+    border: 5px double lightgrey;
+    width:30vw;
+    text-align: center;
+}
+
+.delete-div h3{
+    margin-top:3vh;
+}
+
+.delete-btn{
+    width: 6vw;
+    margin-top: 6vh;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0.1px;
+    background-color: lightskyblue;
+    margin-bottom: 3vh;
+}
+
+.update-div{
+    margin-left: 60vw;
+    margin-top: -32vh;
+    height: 38vh;
+}
+
+#warningText{
+    color: red;
+}
+
+.textbox{
+    margin-left: 5vw;
+    text-align: center;
+    margin-top: 3vh;
+    width: 18vw;
+    border-color: black;
+}
+
+.update-btn{
+    margin-top: 1vh;
+}

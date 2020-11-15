@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*:focus{
+    outline: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+}
+
+.right-grid{
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.form-group{
+    margin-left: 5vw;
+}
+
+form h1{
+    margin-top: 3vh;
+}
+
+label,input{
+    /* margin-top: 3vw; */
+    font-size: 1.2em;
+}
+
+.textbox,.date-picker{
+    height: 5vh;
+    border-radius: 5px;
+    width: 20vw;
+    text-align: center;
+    border-width: 0.1px;
+    margin-top: 3vh;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Removing hidden margin */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.age{
+    background-color: whitesmoke;
+}
+
+.age:hover{
+    cursor: unset;
+}
+
+.error-message{
+    color: red;
+}
+
+.captcha-error{
+    color: red;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.submit{
+    margin-top: 3vh;
+    width: 10vw;
+    padding: 5px;
+    border-radius: 25px;
+    border-width: 0.1px;
+    background-color: salmon;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
