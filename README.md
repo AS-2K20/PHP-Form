@@ -32,11 +32,6 @@ In this Project, We get the values from the user and validate the user inputs. T
  
 ### 5. Age Validation:
  ##### READ-ONLY, Derived From DOB, Age must be in the range of 3 - 79 Years
- 
-## Improvements:
-  #### I am Working on:
-  ##### 1. Update and Delete Actions.
-  ##### 2. UI Alterations.
 
 ## Screenshots:
 
