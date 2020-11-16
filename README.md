@@ -45,5 +45,5 @@ In this Project, We get the values from the user and validate the user inputs. T
 
 ## Demo:
 
-After completing the Update and Delete Actions, I will share the link of the live server here.
+I will give the deplpy link here
 
