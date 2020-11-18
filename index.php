@@ -11,15 +11,6 @@
     <link rel="stylesheet" href="index.css">
     <!-- JQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="/__/firebase/8.0.2/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-         https://firebase.google.com/docs/web/setup#available-libraries -->
-
-    <!-- Initialize Firebase -->
-    <script src="/__/firebase/init.js"></script>
     
 </head>
 
@@ -142,10 +133,10 @@
             $servername = "localhost";
             $username = "root";
             $password = "";
-            $dataBaseName="formdb";
+            // $dataBaseName="formdb";
 
             // Create connection
-            $conn = mysqli_connect($servername, $username, $password, $dataBaseName);
+            $conn = mysqli_connect($servername, $username, $password);
 
             // Check connection
             if (!$conn) {
@@ -153,6 +144,23 @@
             }
             else{
             // Connected successfully
+
+            //Creating DB
+            $createDbQuery = "CREATE DATABASE IF NOT EXISTS formdb";
+            mysqli_query($conn,$createDbQuery);
+            mysqli_select_db($conn,"formdb");
+
+            //Creating Table
+            $createTableQuery = "CREATE TABLE IF NOT EXISTS formdetails(
+                id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+                name VARCHAR(255) NOT NULL,
+                email VARCHAR(255) NOT NULL,
+                phoneNo VARCHAR(20) NOT NULL,
+                dob DATE NOT NULL,
+                age INT NOT NULL
+            )";
+            mysqli_query($conn,$createTableQuery);
+            
             $nameValue=$_POST['userName'];
             $emailValue=$_POST['userEmail'];
             $phoneNoValue=$_POST['userPhoneNo'];
