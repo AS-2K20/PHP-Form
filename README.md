@@ -45,5 +45,4 @@ In this Project, We get the values from the user and validate the user inputs. T
 
 ## Demo:
 
-Heroku Deployment On the Progress. The link would be updated here.
-
+FireBase Deployment On the Progress. The link would be updated here soon.
