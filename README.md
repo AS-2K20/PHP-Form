@@ -43,6 +43,9 @@ In this Project, We get the values from the user and validate the user inputs. T
 
 <img width="400" alt="php-form-6" src="https://user-images.githubusercontent.com/66553883/99140312-c0e9ce80-2666-11eb-9375-58ce0b4761a1.png">
 
-## Demo:
+## Deployment Instructions:
 
-FireBase Deployment On the Progress. The link would be updated here soon.
+1. Install a Server Application for PHP like WAMP or XAMP.
+2. Clone or Download the Zip File of the Source Code.
+3. Move the Source Code Folder to wamp\www folder if you are using WAMP or to xamp\htdocs if you are using XAMP.
+4. In the URL, type "http://localhost/your_source_code_folder_name/index.php
