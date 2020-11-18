@@ -48,4 +48,4 @@ In this Project, We get the values from the user and validate the user inputs. T
 1. Install a Server Application for PHP like WAMP or XAMP.
 2. Clone or Download the Zip File of the Source Code.
 3. Move the Source Code Folder to wamp\www folder if you are using WAMP or to xamp\htdocs if you are using XAMP.
-4. In the URL, type "http://localhost/your_source_code_folder_name/index.php".
+4. In the URL, type "localhost/your_source_code_folder_name/index.php".
