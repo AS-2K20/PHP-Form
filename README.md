@@ -45,7 +45,7 @@ In this Project, We get the values from the user and validate the user inputs. T
 
 ## Deployment Instructions:
 
-1. Install and run a Server Application for PHP like WAMP or XAMP ( Recommended version for PHP is 7.3+ and Recommended version for MySql is 8+ ).
+1. Install and run a Server Application for PHP like WAMP or XAMPP ( Recommended version for PHP is 7.3+ and Recommended version for MySQL is 8+ ).
 2. Clone or Download the Zip File of the Source Code.
-3. Move the Source Code Folder to wamp\www folder if you are using WAMP or to xamp\htdocs if you are using XAMP.
+3. Move the Source Code Folder to wamp\www folder if you are using WAMP or to xamp\htdocs if you are using XAMPP.
 4. In the Browser's URL, type "localhost/your_source_code_folder_name/index.php".
