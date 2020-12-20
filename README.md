@@ -43,6 +43,10 @@ In this Project, We get the values from the user and validate the user inputs. T
 
 <img width="400" alt="php-form-6" src="https://user-images.githubusercontent.com/66553883/99140312-c0e9ce80-2666-11eb-9375-58ce0b4761a1.png">
 
+## Note:
+
+Responsive Design will be implemented in the next version.
+
 ## Deployment Instructions:
 
 1. Install and run a Server Application for PHP like WAMP or XAMPP ( Recommended version for PHP is 7.3+ and Recommended version for MySQL is 8+ ).
